@@ -8,6 +8,10 @@ const LeftRender = () => {
                 Software engineer passionate about solving problems through code,
                 building reliable backend systems and creative web experiences.
             </p>
+
+            <p>Keywords:</p>
+            <p>Content</p>
+            <p>Contacts</p>
         </>
     )
 }
