@@ -1,9 +1,10 @@
+import AboutMe from "./AboutMe";
+
 const RightRender = () =>  {
     return (
-        <div>
-            <h1>About Me</h1>
-            <p>Infor</p>
-        </div>
+        <>
+            <AboutMe />
+        </>
     )
 }
 

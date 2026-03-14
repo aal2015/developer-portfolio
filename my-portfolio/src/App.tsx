@@ -5,10 +5,14 @@ import RightRender from './components/RightSide/RightRender'
 function App() {
 
   return (
-    <>
-      <LeftRender />
-      <RightRender />
-    </>
+    <div className="flex">
+      <div className="w-1/2">
+        <LeftRender />
+      </div>
+      <div className="w-1/2">
+        <RightRender />
+      </div>
+    </ div>
   )
 }
 
