@@ -6,10 +6,10 @@ function App() {
 
   return (
     <div className="grid grid-cols-2 h-screen">
-      <div className="sticky top-0 h-screen">
+      <div className="sticky top-0 h-screen px-16">
         <LeftRender />
       </div>
-      <div className="overflow-y-auto h-screen">
+      <div id="right-panel" className="overflow-y-auto h-screen">
         <RightRender />
       </div>
     </div>
