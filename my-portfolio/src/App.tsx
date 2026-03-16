@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="grid grid-cols-2 h-screen">
-      <div className="sticky top-0 h-screen px-16">
+      <div className="sticky top-0 h-screen px-16 pt-20 bg-blue-100">
         <LeftRender />
       </div>
       <div id="right-panel" className="overflow-y-auto h-screen">

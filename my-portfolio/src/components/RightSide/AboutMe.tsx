@@ -2,31 +2,28 @@ const AboutMe = () => {
     return (
         <div>
             <h2 className="text-2xl font-bold">About Me</h2>
-            <p>
-                Hi! Thank you for taking the time to visit my page. I’m Abhinav Lugun, a software engineer 
-                who enjoys programming as a way of solving complex problems—much like solving puzzles.
+            <p className='my-3'>
+                Hi! I would first like to thank you for taking the time to visit my page. 
+                I’m Abhinav Lugun, and I enjoy problem-solving, creativity, and building things.
+            </p>
+            <p className='mb-3'>
+                Software engineering gives me a nice outlet to express these qualities. I enjoy 
+                tackling real-time software issues like rate limiting to prevent abuse and system 
+                overload, designing and implementing a clean and intuitive frontend, and implementing 
+                cool features for applications.
+            </p>
+            <p className='mb-3'>
+                Early in my career, I had the opportunity to work with a Thai startup company onsite and 
+                a Singaporean startup company remotely as a software developer. Through my professional 
+                work, I have worked with technologies such as frontend, backend, web3, machine learning, 
+                and cloud deployment.
+            </p>
+            <p className='mb-3'>
+                I am interested in mastering my craft in building robust and scalable applications, and 
+                exploring web3 and AI further.
             </p>
             <p>
-                Growing up in a diplomatic family, I had the opportunity to live in 
-                different countries and experience diverse cultures from an early age. 
-                This international upbringing helped me develop adaptability and a 
-                global perspective, which I continue to value when working in 
-                collaborative engineering environments.
-            </p>
-            <p>
-                Early in my career, I’ve had the opportunity to work with startup teams in Thailand and 
-                Singapore. Through these experiences, I’ve worked across multiple areas including frontend and 
-                backend development, Web3 integrations, Telegram bot development, cloud deployments, ML integrations, 
-                and CI/CD pipelines.
-            </p>
-            <p>
-                While my primary focus is building full-stack applications, I enjoy exploring new technical domains 
-                and expanding my skills. I’m particularly interested in Web3 technologies and game development, as I 
-                see programming not only as engineering but also as a creative expression of human ingenuity.
-            </p>
-            <p>
-                Outside of programming, I enjoy traveling, staying active through badminton, and playing games. Gaming 
-                also inspires my curiosity about how interactive systems and games are designed and built.
+                Outside of programming, I enjoy travelling, sports, and a bit of gaming.
             </p>
         </ div>
     );
