@@ -5,8 +5,8 @@ import RightRender from './components/RightSide/RightRender'
 function App() {
 
   return (
-    <div className="grid grid-cols-2 h-screen">
-      <div className="sticky top-0 h-screen px-16 pt-20 bg-blue-100">
+    <div className="grid grid-cols-2 h-screen  bg-blue-500">
+      <div className="sticky top-0 h-screen px-16 pt-10">
         <LeftRender />
       </div>
       <div id="right-panel" className="overflow-y-auto h-screen">
