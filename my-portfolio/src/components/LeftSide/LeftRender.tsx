@@ -62,18 +62,42 @@ const LeftRender = () => {
                     Software engineer passionate about solving problems through code,
                     building reliable backend systems and creative web experiences.
                 </p>
+
+                <div className="flex justify-center gap-3 mt-4 flex-wrap">
+                    <span className="px-3 py-1 rounded-full bg-white/20 text-white text-sm font-medium">
+                        Software Engineer
+                    </span>
+                    <span className="px-3 py-1 rounded-full bg-white/20 text-white text-sm font-medium">
+                        Full Stack
+                    </span>
+                    <span className="px-3 py-1 rounded-full bg-white/20 text-white text-sm font-medium">
+                        Web3
+                    </span>
+                    <span className="px-3 py-1 rounded-full bg-white/20 text-white text-sm font-medium">
+                        AI
+                    </span>
+                    <span className="px-3 py-1 rounded-full bg-white/20 text-white text-sm font-medium">
+                        Cloud
+                    </span>
+                    <span className="px-3 py-1 rounded-full bg-white/20 text-white text-sm font-medium">
+                        Telegram Bot
+                    </span>
+                    <span className="px-3 py-1 rounded-full bg-white/20 text-white text-sm font-medium">
+                        Agile
+                    </span>
+                </div>
             </div>
 
-            <nav className="flex gap-4 mt-10 justify-center">
-
+            <h4 className="mt-10 text-center text-xl font-semibold text-white">Sections</h4>
+            <nav className="flex gap-4 mt-3 justify-center">
                 {sections.map((section) => (
                     <button
                         key={section}
                         onClick={() => scrollToSection(section)}
-                        className={`rounded-full px-5 py-2 border transition font-semibold
-            ${activeSection === section
-                                ? "border-blue-800 text-blue-800"
-                                : "border-transparent text-blue-200 hover:border-blue-200"
+                        className={`px-5 py-2 rounded-full transition font-semibold
+      ${activeSection === section
+                                ? "bg-white/20 text-white"
+                                : "text-blue-200 hover:bg-white/10 hover:text-white"
                             }`}
                     >
                         {section === "about" && "About Me"}
@@ -81,19 +105,19 @@ const LeftRender = () => {
                         {section === "skills" && "Skills"}
                     </button>
                 ))}
-
             </nav>
 
-            <div className="mt-8 flex flex-col gap-3 text-blue-200 text-sm">
+            <h4 className="mt-10 text-center text-xl font-semibold text-white">Contacts</h4>
+            <div className="mt-3 flex flex-col gap-3 text-blue-200 text-sm">
 
                 <div className="flex justify-center gap-6">
 
-                    <div className="flex items-center gap-2 px-3 py-1 rounded-full hover:bg-white/10 transition cursor-pointer">
+                    <div className="flex items-center gap-2 px-3 py-1 rounded-full hover:bg-white/10 hover:text-white transition cursor-pointer">
                         <IoMdMail />
                         <span>abhinavlugun@yahoo.com</span>
                     </div>
 
-                    <div className="flex items-center gap-2 px-3 py-1 rounded-full hover:bg-white/10 transition cursor-pointer">
+                    <div className="flex items-center gap-2 px-3 py-1 rounded-full hover:bg-white/10 hover:text-white transition cursor-pointer">
                         <FaPhoneAlt />
                         <span>+91 92899 55569</span>
                     </div>
@@ -102,12 +126,12 @@ const LeftRender = () => {
 
                 <div className="flex justify-center gap-6">
 
-                    <div className="flex items-center gap-2 px-3 py-1 rounded-full hover:bg-white/10 transition cursor-pointer">
+                    <div className="flex items-center gap-2 px-3 py-1 rounded-full hover:bg-white/10 hover:text-white transition cursor-pointer">
                         <FaLinkedin />
                         <span>/in/abhinav-l-75b073120/</span>
                     </div>
 
-                    <div className="flex items-center gap-2 px-3 py-1 rounded-full hover:bg-white/10 transition cursor-pointer">
+                    <div className="flex items-center gap-2 px-3 py-1 rounded-full hover:bg-white/10 hover:text-white transition cursor-pointer">
                         <FaGithub />
                         <span>aal2015</span>
                     </div>
