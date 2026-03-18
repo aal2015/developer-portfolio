@@ -1,7 +1,7 @@
 const AboutMe = () => {
     return (
-        <div>
-            <h2 className="text-2xl font-bold">About Me</h2>
+        <div className="text-blue-100 ">
+            <h2 className="text-2xl font-bold text-white">About Me</h2>
             <p className='my-3'>
                 Hi! I would first like to thank you for taking the time to visit my page. 
                 I’m Abhinav Lugun, and I enjoy problem-solving, creativity, and building things.
