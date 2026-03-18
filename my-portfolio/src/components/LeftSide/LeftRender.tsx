@@ -4,7 +4,7 @@ import profilePic from '../../assets/developer-pic.jpg';
 import { FaLinkedin, FaPhoneAlt, FaGithub } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 
-const sections = ["about", "experience", "skills"]
+const sections = ["about", "skills", "experience" ]
 
 const LeftRender = () => {
 
