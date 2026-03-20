@@ -101,7 +101,7 @@ const LeftRender = () => {
                             }`}
                     >
                         {section === "about" && "About Me"}
-                        {section === "experience" && "Work Experience"}
+                        {section === "experience" && "Experience"}
                         {section === "skills" && "Skills"}
                     </button>
                 ))}
