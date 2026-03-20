@@ -4,7 +4,7 @@ import timelineData from "./timelineData";
 const EducationWorkTimeline = () => {
     return (
         <>
-            <h2 className="text-2xl font-bold text-white">Experience</h2>
+            <h2 className="text-3xl font-bold text-white">Experience</h2>
 
             {timelineData.map((item, index) => (
                 <div key={index} className="relative">
@@ -18,8 +18,8 @@ const EducationWorkTimeline = () => {
                         {/* Title */}
 
                         <div className="flex justify-between">
-                            <span className="text-white text-base font-semibold max-w-[320px]">{item.name}</span>
-                            <span className="text-white text-base font-semibold">{item.title}</span>
+                            <span className="text-white text-xl font-semibold max-w-[320px]">{item.name}</span>
+                            <span className="text-white text-xl font-semibold">{item.title}</span>
 
                         </div>
 

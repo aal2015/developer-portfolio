@@ -1,12 +1,24 @@
-import type  { TimelineItem } from "./timelineType";
+import type { Project } from "./timelineType";
 
 type Props = {
-    projects: TimelineItem[];
+    projects: Project[];
 };
 
 const DisplayProjectDetails = ({ projects }: Props) => {
-    console.log(projects);
-    return <>Project Details</>
-}
+    return (
+        <>
+            {projects.map((project, index) => (
+                <>
+                    <div key={index} className="text-white font-semibold">{project.name}</div>
+                    <ul className="list-disc ml-5">
+                        {project.contributions.map((item) => (
+                            <li className="text-blue-100">{item}</li>
+                        ))}
+                    </ul>
+                </>
+            ))}
+        </>
+    );
+};
 
 export default DisplayProjectDetails;
