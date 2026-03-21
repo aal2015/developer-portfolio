@@ -69,7 +69,7 @@ const timelineData = [
         place: "Thailand",
         flagCode: "th",
         type: "university",
-        description: "Focused on AI and software engineering."
+        description: "Completed foundational computer science coursework including web application engineering, data structures, and compilers. Also pursued advanced courses in data science and AI, such as machine learning, data modeling, and natural language processing, earning a minor in Data Science & Artificial Intelligence."
     },
     {
         year: "Dec 2020 – Mar 2021",
@@ -87,8 +87,36 @@ const timelineData = [
         place: "India",
         flagCode: "in",
         type: "university",
-        description: "Focused on AI and software engineering."
+        description: "Bachelor of Technology in Electrical Engineering, 4-year accredited program."
+    },
+    {
+        year: "2015-2016",
+        title: "High School",
+        name: "Khartoum American School",
+        place: "Sudan",
+        flagCode: "sd",
+        type: "school",
+        description: ""
+    },
+    {
+        year: "2013-2015",
+        title: "High School",
+        name: "Sana'a International School",
+        place: "Yemen",
+        flagCode: "ye",
+        type: "school",
+        description: ""
+    },
+    {
+        year: "2010-2013",
+        title: "High School",
+        name: "Kathmandu International Study Centre",
+        place: "Nepal",
+        flagCode: "np",
+        type: "school",
+        description: "Done part of my high school as most was middle schooling"
     }
+
     // {
     //     year: "2018",
     //     title: "High School (International)",

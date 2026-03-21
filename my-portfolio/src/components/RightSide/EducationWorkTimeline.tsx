@@ -4,7 +4,7 @@ import timelineData from "./timelineData";
 const EducationWorkTimeline = () => {
     return (
         <>
-            <h2 className="text-3xl font-bold text-white">Experience</h2>
+            <h2 className="text-3xl font-bold text-white mb-3">Experience</h2>
 
             {timelineData.map((item, index) => (
                 <div key={index} className="relative">

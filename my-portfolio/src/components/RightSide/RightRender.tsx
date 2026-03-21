@@ -13,7 +13,7 @@ const RightRender = () => {
                 <Skills />
             </section>
 
-            <section id="experience">
+            <section id="experience" className="my-10">
                 <EducationWorkTimeline />
             </section>
 
