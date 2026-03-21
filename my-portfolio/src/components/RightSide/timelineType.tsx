@@ -2,6 +2,7 @@ export type Project = {
     name: string;
     about: string;
     contributions: string[];
+    image?: string;
 };
 
 export type TimelineItem = {

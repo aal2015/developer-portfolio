@@ -1,3 +1,6 @@
+import telemafiaImage from '../../assets/telemafia.avif'
+import pocketSoulsImage from '../../assets/pocket_souls.png'
+
 const timelineData = [
     {
         year: "July 2025 - Feb 2026",
@@ -15,7 +18,9 @@ const timelineData = [
                 "Integrated Privy wallets for secure transactions (MON, Ethereum)",
                 "Implemented NFT transfer flows, daily check-ins, and on-chain “Respect” rewards",
                 "Added in-app payments + cashback system"
-            ]
+            ],
+            image: telemafiaImage
+            
         },
         {
             name: "Pocket Souls (AI Companion)",
@@ -24,7 +29,8 @@ const timelineData = [
                 "Developed backend for dynamic AI skill generation",
                 "Implemented rate limiting to prevent abuse under load",
                 "Contributed to CI/CD pipelines on GCP"
-            ]
+            ],
+            image: pocketSoulsImage
         }]
     },
     {

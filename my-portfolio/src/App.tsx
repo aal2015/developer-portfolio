@@ -4,17 +4,21 @@ import RightRender from './components/RightSide/RightRender'
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 function App() {
-
   return (
-    <div className="grid grid-cols-2 h-screen  bg-blue-700">
-      <div className="sticky top-0 h-screen px-10 pt-10">
-        <LeftRender />
-      </div>
-      <div id="right-panel" className="overflow-y-auto h-screen px-10">
+    <div className="grid grid-cols-1 xl:grid-cols-[1fr_1.2fr] bg-blue-700 xl:h-screen">
+      
+      {/* Left */}
+      <div className="xl:sticky xl:top-0 xl:h-screen xl:overflow-hidden px-6 xl:px-10 pt-10">
+  <LeftRender />
+</div>
+
+      {/* Right */}
+      <div id="right-panel" className="xl:overflow-y-auto xl:h-screen px-6 xl:px-10">
         <RightRender />
       </div>
+
     </div>
   )
 }
 
-export default App
+export default App;
