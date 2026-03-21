@@ -9,6 +9,7 @@ const timelineData = [
         description: "",
         projects: [{
             name: "TeleMafia (Web3 Telegram Game)",
+            about: "A Web3 social mafia game on Telegram featuring on-chain rewards and interactive gameplay, where players compete to earn respect and climb the social ladder.",
             contributions: [
                 "Built backend services for a Web3 social game with on-chain rewards",
                 "Integrated Privy wallets for secure transactions (MON, Ethereum)",
@@ -18,6 +19,7 @@ const timelineData = [
         },
         {
             name: "Pocket Souls (AI Companion)",
+            about: "An AI companion platform designed to provide users with a persistent, supportive presence through personalized and dynamically generated interactions.",
             contributions: [
                 "Developed backend for dynamic AI skill generation",
                 "Implemented rate limiting to prevent abuse under load",
@@ -34,7 +36,8 @@ const timelineData = [
         type: "work",
         description: "",
         projects: [{
-            name: "AI Interviewer",
+            name: "Edge AI Interview",
+            about: "An AI-powered interview platform that automates candidate interviews to streamline the hiring process.",
             contributions: [
                 "Built a React-based frontend for an AI interview system",
                 "Trained and integrated facial emotion recognition and gaze tracking models to assess engagement",
@@ -42,6 +45,7 @@ const timelineData = [
         },
         {
             name: "API Library Platform",
+            about: 'A platform providing machine learning services, including liveness detection, text-to-speech, and facial emotion recognition, exposed via APIs.',
             contributions: [
                 "Built FastAPI-based REST APIs for authentication, token purchases, and ML service access",
                 "Developed a lightweight frontend for management",
@@ -49,6 +53,7 @@ const timelineData = [
         },
         {
             name: "Salmate – Insurance Chat Solution",
+            about: 'An AI-powered conversational platform that centralizes customer interactions across multiple channels and automates workflows such as support, ticketing, and communication.',
             contributions: [
                 "Improved UX of Svelte-based frontend",
                 "Secured routes with auth cookies and aligned frontend with Django backend changes",
@@ -56,6 +61,7 @@ const timelineData = [
         },
         {
             name: "Liveness Detection System",
+            about: 'A machine learning system for liveness detection that distinguishes real users from spoofing attempts in real time.',
             contributions: [
                 "Improved liveness detection accuracy (~90% → ~98%)",
                 "Exposed real-time verification via FastAPI endpoints",
