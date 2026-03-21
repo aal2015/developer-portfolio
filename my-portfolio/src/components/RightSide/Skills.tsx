@@ -50,6 +50,13 @@ const Skills = () => {
                 </div>
 
                 <div className="px-3 py-1 rounded-full bg-white/20 text-white text-sm font-medium w-fit h-fit">
+                    Web3
+                </div>
+                <div className="col-span-2">
+                    Ethereum, Monad, Smart Contracts (Testing), NFT Flows, Wallet Integration (Privy)
+                </div>
+
+                <div className="px-3 py-1 rounded-full bg-white/20 text-white text-sm font-medium w-fit h-fit">
                     Testing & Practices
                 </div>
                 <div className="col-span-2">
