@@ -89,7 +89,7 @@ const LeftRender = () => {
 
             <div className="flex justify-center">
                 <a
-                    href='/developer-portfolio/resume.pdf'
+                    href='/resume.pdf'
                     className="text-white font-bold"
                     target="_blank"
                     rel="noopener noreferrer"

@@ -10,7 +10,7 @@ const timelineData = [
         flagCode: "sg",
         type: "work",
         description: "",
-        pdf_link: '/developer-portfolio/sonzai_recommendation_letter.pdf',
+        pdf_link: '/sonzai_recommendation_letter.pdf',
         pdf_link_text: "Recommendation Letter",
         projects: [{
             name: "TeleMafia (Web3 Telegram Game)",
@@ -43,7 +43,7 @@ const timelineData = [
         flagCode: "th",
         type: "work",
         description: "",
-        pdf_link: '/developer-portfolio/aibl_experience_certificate.pdf',
+        pdf_link: '/aibl_experience_certificate.pdf',
         pdf_link_text: "Experience Letter",
         projects: [{
             name: "Edge AI Interview",
