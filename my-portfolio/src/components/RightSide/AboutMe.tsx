@@ -31,7 +31,7 @@ const AboutMe = () => {
                 exploring web3 and AI further.
             </p>
             <p>
-                Outside of programming, I enjoy travelling, sports, and a bit of gaming.
+                Outside of programming, I enjoy <span className="font-bold text-white">travelling</span>, <span className="font-bold text-white">sports</span>, and a <span className="font-bold text-white">bit of gaming</span>.
             </p>
         </ div>
     );
