@@ -21,9 +21,9 @@ const AboutMe = () => {
             </p>
             <p className='mb-3'>
                 Coming from a <span className="font-bold text-white">diplomatic family</span>, I had the privilege of growing up in multiple countries, moving every few years.
-                I was born in Doha, Qatar <span className="fi fi-qa"></span>, and lived in France <span className="fi fi-fr"></span>, Algeria <span className="fi fi-dz"></span>, 
-                Philippines <span className="fi fi-ph"></span>, Nepal <span className="fi fi-np"></span>, Yemen <span className="fi fi-ye"></span>, Sudan <span className="fi fi-sd"></span>, 
-                Greece <span className="fi fi-gr"></span>, and Thailand <span className="fi fi-th"></span>. Having worked with different nationalities professionally, including Thai, Nepali, 
+                I was born in Doha, Qatar <span className="fi fi-qa"></span> , and lived in France <span className="fi fi-fr"></span> , Algeria <span className="fi fi-dz"></span> , 
+                Philippines <span className="fi fi-ph"></span> , Nepal <span className="fi fi-np"></span>, Yemen <span className="fi fi-ye"></span> , Sudan <span className="fi fi-sd"></span> , 
+                Greece <span className="fi fi-gr"></span> , and Thailand <span className="fi fi-th"></span> . Having worked with different nationalities professionally, including Thai, Nepali, 
                 Indian, Greek, Singaporean, Myanmar, and Filipino, combined living in multiple countries, I am <span className="font-bold text-white">comfortable working with diverse teams</span> and <span className="font-bold text-white">adapt quickly to different environments</span>.
             </p>
             <p className='mb-3'>

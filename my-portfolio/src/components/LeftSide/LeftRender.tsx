@@ -113,12 +113,12 @@ const LeftRender = () => {
 
                 <div className="flex justify-center gap-6">
 
-                    <div className="flex items-center gap-2 px-3 py-1 rounded-full hover:bg-white/10 hover:text-white transition cursor-pointer">
+                    <div className="flex items-center gap-2 px-3 py-1 rounded-full hover:bg-white/10 hover:text-white transition">
                         <IoMdMail />
                         <span>abhinavlugun@yahoo.com</span>
                     </div>
 
-                    <div className="flex items-center gap-2 px-3 py-1 rounded-full hover:bg-white/10 hover:text-white transition cursor-pointer">
+                    <div className="flex items-center gap-2 px-3 py-1 rounded-full hover:bg-white/10 hover:text-white transition">
                         <FaPhoneAlt />
                         <span>+91 92899 55569</span>
                     </div>
@@ -126,17 +126,25 @@ const LeftRender = () => {
                 </div>
 
                 <div className="flex justify-center gap-6">
-
-                    <div className="flex items-center gap-2 px-3 py-1 rounded-full hover:bg-white/10 hover:text-white transition cursor-pointer">
+                    <a
+                        href="https://www.linkedin.com/in/abhinav-l-75b073120/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 px-3 py-1 rounded-full hover:bg-white/10 hover:text-white transition cursor-pointer"
+                    >
                         <FaLinkedin />
                         <span>/in/abhinav-l-75b073120/</span>
-                    </div>
+                    </a>
 
-                    <div className="flex items-center gap-2 px-3 py-1 rounded-full hover:bg-white/10 hover:text-white transition cursor-pointer">
+                    <a
+                        href="https://github.com/aal2015"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 px-3 py-1 rounded-full hover:bg-white/10 hover:text-white transition cursor-pointer"
+                    >
                         <FaGithub />
                         <span>aal2015</span>
-                    </div>
-
+                    </a>
                 </div>
 
             </div>
