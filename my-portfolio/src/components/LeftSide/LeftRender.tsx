@@ -59,7 +59,7 @@ const LeftRender = () => {
                 <h1 className="text-5xl font-bold text-white">Abhinav Lugun</h1>
                 <h2 className="text-2xl font-bold text-white py-2">Software Engineer</h2>
                 <p className="text-blue-200">
-                    Software engineer passionate about solving problems through code,
+                    Software engineer passionate about solving real-world problems,
                     building reliable backend systems and creative web experiences.
                 </p>
 
