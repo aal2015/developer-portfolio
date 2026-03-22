@@ -1,7 +1,10 @@
+import { IoGameController } from "react-icons/io5";
+import { FaPlane, FaTableTennis } from "react-icons/fa";
+
 const AboutMe = () => {
     return (
         <div className="text-blue-100">
-            <h2 className="text-3xl font-bold text-white">About Me</h2>
+            <h2 className="text-3xl font-bold text-white">About Me <FaPlane /> <FaTableTennis /></h2>
             <p className='my-3'>
                 Hi! I would first like to thank you for taking the time to visit my page. 
                 I’m Abhinav Lugun, and I enjoy <span className="font-bold text-white">problem-solving</span>, 

@@ -10,13 +10,19 @@ const RightRender = () => {
                 <AboutMe />
             </section>
 
+            <hr className="border-t-3 border-white/10 my-8" />
+
             <section id="skills">
                 <Skills />
             </section>
 
+            <hr className="border-t-3 border-white/10 my-8" />
+
             <section id="experience" className="my-10">
                 <EducationWorkTimeline />
             </section>
+
+            <hr className="border-t-3 border-white/10 my-8" />
 
             <section id="research">
                 <Research />
