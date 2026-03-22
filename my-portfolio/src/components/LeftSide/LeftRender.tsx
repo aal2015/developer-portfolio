@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import profilePic from '../../assets/developer-pic.jpg';
-import ResumePDF from '../../documents/resume.pdf'
 import { FaLinkedin, FaPhoneAlt, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 
@@ -90,7 +89,7 @@ const LeftRender = () => {
 
             <div className="flex justify-center">
                 <a
-                    href={ResumePDF}
+                    href='/developer-portfolio/resume.pdf'
                     className="text-white font-bold"
                     target="_blank"
                     rel="noopener noreferrer"
