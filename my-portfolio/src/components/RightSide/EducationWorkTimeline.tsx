@@ -1,5 +1,6 @@
 import DisplayProjectDetails from "./DisplayProjectDetails";
 import timelineData from "./timelineData";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const EducationWorkTimeline = () => {
     return (
@@ -40,6 +41,19 @@ const EducationWorkTimeline = () => {
                                 {item.type === "school" && "School"}
                             </span>
                         </div>
+
+                        {item.pdf_link && (
+                            <div className="mb-1">
+                                <a
+                                    href={item.pdf_link}
+                                    className="text-blue-100 hover:text-white underline flex items-center gap-1"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    {item.pdf_link_text} <FaExternalLinkAlt className="inline" />
+                                </a>
+                            </div>
+                        )}
 
                         {item.description.length > 0 && (
                             <p className="text-blue-100 text-sm mt-2">

@@ -8,7 +8,7 @@ function App() {
     <div className="grid grid-cols-1 xl:grid-cols-[1fr_1.2fr] bg-blue-700 xl:h-screen">
       
       {/* Left */}
-      <div className="xl:sticky xl:top-0 xl:h-screen xl:overflow-hidden px-6 xl:px-10 pt-10">
+      <div className="xl:sticky xl:top-0 xl:h-screen xl:overflow-hidden px-6 xl:px-10 pt-7">
   <LeftRender />
 </div>
 

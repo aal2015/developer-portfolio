@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import profilePic from '../../assets/developer-pic.jpg';
-
-import { FaLinkedin, FaPhoneAlt, FaGithub } from "react-icons/fa";
+import ResumePDF from '../../documents/resume.pdf'
+import { FaLinkedin, FaPhoneAlt, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 
 const sections = ["about", "skills", "experience", "research"]
@@ -63,7 +63,7 @@ const LeftRender = () => {
                     building reliable backend systems and creative web experiences.
                 </p>
 
-                <div className="flex justify-center gap-3 mt-4 flex-wrap">
+                <div className="flex justify-center gap-2 mt-4 mb-6 flex-wrap">
                     <span className="px-3 py-1 rounded-full bg-white/20 text-white text-sm font-medium">
                         Software Engineer
                     </span>
@@ -88,7 +88,18 @@ const LeftRender = () => {
                 </div>
             </div>
 
-            <h4 className="mt-10 text-center text-xl font-semibold text-white">Sections</h4>
+            <div className="flex justify-center">
+                <a
+                    href={ResumePDF}
+                    className="text-white font-bold"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    View Resume <FaExternalLinkAlt className="inline" />
+                </a>
+            </div>
+
+            <h4 className="mt-8 text-center text-xl font-semibold text-white">Sections</h4>
             <nav className="flex gap-4 mt-3 justify-center">
                 {sections.map((section) => (
                     <button
