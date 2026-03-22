@@ -27,6 +27,12 @@ const RightRender = () => {
             <section id="research">
                 <Research />
             </section>
+
+            <p className="text-blue-100 text-center mt-3 mb-5">
+                Designed and built from scratch with <span className="font-bold text-white">React (Vite)</span> and
+                <span className="font-bold text-white"> Tailwind CSS</span>. Deployed on
+                <span className="font-bold text-white"> Vercel</span>.
+            </p>
         </>
     )
 }
