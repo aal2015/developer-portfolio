@@ -18,12 +18,9 @@ const RightRender = () => {
                 <EducationWorkTimeline />
             </section>
 
-            <section id="reseach">
+            <section id="research">
                 <Research />
             </section>
-
-            
-
         </>
     )
 }

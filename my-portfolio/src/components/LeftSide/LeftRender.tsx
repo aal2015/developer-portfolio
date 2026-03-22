@@ -4,7 +4,7 @@ import profilePic from '../../assets/developer-pic.jpg';
 import { FaLinkedin, FaPhoneAlt, FaGithub } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 
-const sections = ["about", "skills", "experience" ]
+const sections = ["about", "skills", "experience", "research"]
 
 const LeftRender = () => {
 
@@ -103,6 +103,7 @@ const LeftRender = () => {
                         {section === "about" && "About Me"}
                         {section === "experience" && "Experience"}
                         {section === "skills" && "Skills"}
+                        {section === "research" && "Research"}
                     </button>
                 ))}
             </nav>
