@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import profilePic from '../../assets/developer-pic.jpg';
 import { FaLinkedin, FaPhoneAlt, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
@@ -16,7 +16,7 @@ const LeftRender = () => {
                 behavior: "smooth",
                 block: "start"
             })
-        }
+        };
     }
 
     useEffect(() => {
