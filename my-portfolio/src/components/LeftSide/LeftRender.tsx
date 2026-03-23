@@ -120,7 +120,7 @@ const LeftRender = () => {
             <h4 className="mt-10 text-center text-xl font-semibold text-white">Contacts</h4>
             <div className="mt-3 flex flex-col gap-3 text-blue-200 text-sm">
 
-                <div className="flex justify-center gap-6">
+                <div className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-6">
 
                     <div className="flex items-center gap-2 px-3 py-1 rounded-full hover:bg-white/10 hover:text-white transition">
                         <IoMdMail />
@@ -134,7 +134,7 @@ const LeftRender = () => {
 
                 </div>
 
-                <div className="flex justify-center gap-6">
+                <div className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-6">
                     <a
                         href="https://www.linkedin.com/in/abhinav-l-75b073120/"
                         target="_blank"
