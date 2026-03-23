@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import profilePic from '../../assets/developer-pic.jpg';
 import { FaLinkedin, FaPhoneAlt, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
@@ -6,8 +6,7 @@ import { IoMdMail } from "react-icons/io";
 const sections = ["about", "skills", "experience", "research"]
 
 const LeftRender = () => {
-
-    const [activeSection, setActiveSection] = useState("about")
+    const [activeSection, setActiveSection] = useState("about");
 
     const scrollToSection = (id: string) => {
         const element = document.getElementById(id)
@@ -99,15 +98,15 @@ const LeftRender = () => {
             </div>
 
             <h4 className="mt-8 text-center text-xl font-semibold text-white">Sections</h4>
-            <nav className="flex gap-4 mt-3 justify-center">
+            <nav className="flex flex-wrap justify-center gap-3 mt-3 px-4">
                 {sections.map((section) => (
                     <button
                         key={section}
                         onClick={() => scrollToSection(section)}
-                        className={`px-5 py-2 rounded-full transition font-semibold
-      ${activeSection === section
-                                ? "bg-white/20 text-white"
-                                : "text-blue-200 hover:bg-white/10 hover:text-white"
+                        className={`px-5 py-2 rounded-full transition font-semibold text-blue-200
+  ${activeSection === section
+                                ? "md:bg-white/20 md:text-white"
+                                : "hover:bg-white/10 hover:text-white"
                             }`}
                     >
                         {section === "about" && "About Me"}
